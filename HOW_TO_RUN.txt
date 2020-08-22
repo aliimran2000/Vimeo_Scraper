@@ -1,0 +1,34 @@
+# This guide will help you install and setup pipenv and scrapy so you can run the scrpper well
+
+
+	# You will need Python and PIP installed #
+	
+	# Assuming you already have it installed #
+	
+	
+1 .	installing PIPENV
+	
+		a . pip install pipenv 
+
+2 .	Setting UP enviorment
+		
+		a . to setup enviornment open the GIG folder 
+		b. open a terminal and type 
+			" pipenv install "
+		this will autmatically install all requirements   needed for the scrapper to run 
+
+
+3 . 	Editing the Scrapper
+		
+		a .	navigate to GIG/Vimeo/Vimeo/spiders$ 
+		b .	open vsp.y  ** THIS IS THE SPIDER ***
+		c .	edit line 37 and 38 according to your need
+		 
+
+4 .	To Run the spider :
+		
+		a . type  scrapy crawl vsp -o <filename>.csv
+		b. the scrapper will run and automatically save all data to the filename.csv in the spiders folder
+
+
+
